@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AM | AM X BOOTSTRAP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+</head>
+
+<body class="bg-light">
+
+    <nav class="navbar navbar-light bg-light shadow-sm fixed-top">
+        <div class="container-lg">
+            <a class="navbar-brand text-primary fw-bold fs-4" href="#">Boot.S</a>
+            <div class="dropdown">
+                <button class="btn btn-primary fs-4 px-3" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-list"></i>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#home">home</a></li>
+                    <li><a class="dropdown-item" href="#about">about</a></li>
+                    <li><a class="dropdown-item" href="#services">services</a></li>
+                    <li><a class="dropdown-item" href="#portfolio">portfolio</a></li>
+                    <li><a class="dropdown-item" href="#testimonials">testimonials</a></li>
+                    <li><a class="dropdown-item" href="#contact">contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home py-5" id="home">
+        <div class="container-lg">
+            <div class="row min-vh-100 align-items-center align-content-center">
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <div class="home-img text-center">
+                        <img src="/assets/home-img.png" alt="Profile Photo" class="rounded-circle mw-100 img-thumbnail">
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+                    <div class="home-text">
+                        <p class="text-capitalize text-muted fs-5 mb-1">hello, I'm</p>
+                        <h1 class="text-uppercase text-primary fw-bold fs-1">web developer</h1>
+                        <h2 class="text-capitalize fs-4">Ahmed Mahim</h2>
+                        <p class="text-muted fs-5 mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <a href="#portfolio" class="btn btn-primary px-3 mt-3">My Work</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-5">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="text-capitalize fw-bold mb-5">about me</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="about-text">
+                        <h3 class="fs-4 mb-3">Lorem ipsum dolor sit amet, consecteturadipiscing elit</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                    <div class="row text-center text-uppercase my-3">
+                        <div class="col-sm-4">
+                            <div class="fact-item text-center">
+                                <h4 class="fw-bold fs-2">100</h4>
+                                <p class="text-uppercase">projects completed</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="fact-item text-center">
+                                <h4 class="fw-bold fs-1">94</h4>
+                                <p class="text-uppercase">happy client</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="fact-item text-center">
+                                <h4 class="fw-bold fs-2">95</h4>
+                                <p class="text-uppercase">positive reviews</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-lg-12 d-flex align-items-center ">
+                            <a href="#" class="btn btn-primary text-capitalize me-5">download CV</a>
+                            <div class="social-items">
+                                <a href="#" class="text-dark me-2"><i class="bi bi-facebook"></i></a>
+                                <a href="#" class="text-dark me-2"><i class="bi bi-twitter"></i></i></a>
+                                <a href="#" class="text-dark me-2"><i class="bi bi-github"></i></a>
+                                <a href="#" class="text-dark me-2"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6  mt-5 mt-md-0">
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-6">Html</h3>
+                        <div class="progress" style="height: 5px;">
+                            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-6">CSS</h3>
+                        <div class="progress" style="height: 5px;">
+                            <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-6">Javascript</h3>
+                        <div class="progress" style="height: 5px;">
+                            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-6">Bootstrap</h3>
+                        <div class="progress" style="height: 5px;">
+                            <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services py-5" id="services">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="text-capitalize fw-bold mb-5">about me</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 text-center mb-4">
+                    <div class="services-item shadow-sm p-4 rounded bg-white">
+                        <div class="icon my-3 text-primary fs-2">
+                            <i class="bi bi-code-slash"></i>
+                        </div>
+                        <h3 class="fs-5 py-2">web development</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 text-center mb-4">
+                    <div class="services-item shadow-sm p-4 rounded bg-white">
+                        <div class="icon my-3 text-primary fs-2">
+                            <i class="bi bi-lightbulb"></i>
+                        </div>
+                        <h3 class="fs-5 py-2">creative design</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 text-center mb-4">
+                    <div class="services-item shadow-sm p-4 rounded bg-white">
+                        <div class="icon my-3 text-primary fs-2">
+                            <i class="bi bi-image"></i>
+                        </div>
+                        <h3 class="fs-5 py-2">Photoshop</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio py-5" id="portfolio">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="text-capitalize fw-bold mb-5">leatest works</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <img src="/assets/1.jpg" class="w-100 img-thumbnail" alt="project one">
+                        <h4 class="text-capitalize fs-5 my-2">Bootstarp landing page</h4>
+                        <p class="mb-4">
+                            <a href="#" class="text-capitalize text-primary text-decoration-none">Live demo</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <img src="/assets/2.png" class="w-100 img-thumbnail" alt="project one">
+                        <h4 class="text-capitalize fs-5 my-2">online database</h4>
+                        <p class="mb-4">
+                            <a href="#" class="text-capitalize text-primary text-decoration-none">Live demo</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <img src="/assets/3.jpeg" class="w-100 img-thumbnail" alt="project one">
+                        <h4 class="text-capitalize fs-5 my-2">AI progarmming site</h4>
+                        <p class="mb-4">
+                            <a href="#" class="text-capitalize text-primary text-decoration-none">Live demo</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <img src="/assets/4.png" class="w-100 img-thumbnail" alt="project one">
+                        <h4 class="text-capitalize fs-5 my-2">e-commerce website</h4>
+                        <p class="mb-4">
+                            <a href="#" class="text-capitalize text-primary text-decoration-none">Live demo</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <img src="/assets/5.png" class="w-100 img-thumbnail" alt="project one">
+                        <h4 class="text-capitalize fs-5 my-2">modern design</h4>
+                        <p class="mb-4">
+                            <a href="#" class="text-capitalize text-primary text-decoration-none">Live demo</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <img src="/assets/6.png" class="w-100 img-thumbnail" alt="project one">
+                        <h4 class="text-capitalize fs-5 my-2">music webpage</h4>
+                        <p class="mb-4">
+                            <a href="#" class="text-capitalize text-primary text-decoration-none">Live demo</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="freelancer-available py-5 bg-primary">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <p class="text-light fs-5">Do you have any project ?</p>
+                    <h2 class="text-capitalize fs-1 text-white mb-4">i'm available for freelancer projects</h2>
+                    <a href="#contact" class="btn btn-outline-light text-capitalize">hire me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials py-5" id="testimonials">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="text-capitalize fw-bold mb-5">testimonials</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-xl-7">
+                    <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0"
+                                class="active bg-primary" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" class=" bg-primary" data-bs-target="#carousel1" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" class=" bg-primary" data-bs-target="#carousel1" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner p-1">
+                            <!-- testi items -->
+                            <div class="testi-item carousel-item active mb-5 bg-white shadow-sm rounded p-4">
+                                <div class="testi-author-info d-flex align-items-center">
+                                    <img src="/assets/author-1.jfif" class="img-thumbnail rounded-circle"
+                                        style="width: 70px; height: 70px; object-fit: fit;"
+                                        alt="Testimonial author's photo">
+                                    <div class="author ms-3">
+                                        <h3 class="fs-6 mb-1">David Jeo</h3>
+                                        <p class="text-muted m-0">CEO & Founder</p>
+                                    </div>
+                                </div>
+                                <p class="text-muted mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                    do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua.</p>
+                                <div class="rating text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+
+                            <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5 ">
+                                <div class="testi-author-info d-flex align-items-center">
+                                    <img src="/assets/author-2.jpg" class="img-thumbnail rounded-circle"
+                                        style="width: 70px; height: 70px; object-fit: fit;"
+                                        alt="Testimonial author's photo">
+                                    <div class="author ms-3">
+                                        <h3 class="fs-6 mb-1">Alexendre William</h3>
+                                        <p class="text-muted m-0">Manager</p>
+                                    </div>
+                                </div>
+                                <p class="text-muted mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                    do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua.</p>
+                                <div class="rating text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+
+                            <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5 ">
+                                <div class="testi-author-info d-flex align-items-center">
+                                    <img src="/assets/author-3.jpg" class="img-thumbnail rounded-circle"
+                                        style="width: 70px; height: 70px; object-fit: fit;"
+                                        alt="Testimonial author's photo">
+                                    <div class="author ms-3">
+                                        <h3 class="fs-6 mb-1">Benjamin Clay</h3>
+                                        <p class="text-muted m-0">Marketing Manager</p>
+                                    </div>
+                                </div>
+                                <p class="text-muted mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                    do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua.</p>
+                                <div class="rating text-primary">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                            <!-- testi items end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact py-5" id="contact">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="text-capitalize fw-bold mb-5">contact</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="contact-item mb-3 d-flex">
+                        <div class="icon text-primary fs-4">
+                            <i class="bi bi-envelope-fill"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="text-capitalize fs-5">email</h3>
+                            <p class="text-muted">example@domain.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item mb-3 d-flex">
+                        <div class="icon text-primary fs-4">
+                            <i class="bi bi-telephone-fill"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="text-capitalize fs-5">phone</h3>
+                            <p class="text-muted">0767372***</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item mb-3 d-flex">
+                        <div class="icon text-primary fs-4">
+                            <i class="bi bi-geo-alt-fill"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="text-capitalize fs-5">wisite office</h3>
+                            <p class="text-muted">509 avenue NewYork, U.S.A</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7 mt-3">
+                    <div class="contact-form">
+                        <form>
+                            <div class="row">
+                                <div class="col-lg-6 mb-4">
+                                    <input type="text" placeholder="Your Name"
+                                        class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                                </div>
+                                <div class="col-lg-6 mb-4">
+                                    <input type="text" placeholder="Your Eamil"
+                                        class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 mb-4">
+                                    <input type="text" placeholder="Subject"
+                                        class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 mb-4">
+                                    <textarea placeholder="Your Message"
+                                        class="form-control form-control-lg fs-6 border-0 shadow-sm"
+                                        rows="5"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <a href="#" type="submit" class="btn btn-primary text-capitalize px-3">send
+                                        message</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer border-top py-4">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="text-muted m-0 text-center">&copy; 2021 Ahmed Mahim | Design by The WebShala 2021</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>
